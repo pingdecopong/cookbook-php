@@ -1818,9 +1818,9 @@ ldap.max_links = -1
 ; End:
 
 [xdebug]
-xdebug.remote_enable=<%= node['php54']['xdebug']['remote_enable'] %>
+xdebug.remote_enable=<%= node['php']['xdebug']['remote_enable'] %>
 xdebug.remote_handler=dbgp
 xdebug.remote_mode=req
-xdebug.remote_host=<%= node['php54']['xdebug']['remote_host'] %>
-xdebug.remote_port=<%= node['php54']['xdebug']['remote_port'] %>
+xdebug.remote_host=<%= node['php']['xdebug']['remote_host'] %>
+xdebug.remote_port=<%= node['php']['xdebug']['remote_port'] %>
 xdebug.max_nesting_level=250
